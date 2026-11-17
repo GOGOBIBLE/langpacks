@@ -1,0 +1,19 @@
+GoGoBible language packs
+
+This repository's release files contain Vosk speech recognition models
+by Alpha Cephei Inc. (https://alphacephei.com/vosk/models),
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The model files are unmodified. GoGoBible only repackaged them into one zip per language:
+the model's top folder was renamed to asr/, and bundle.json, SOURCE.txt, NOTICE.txt and
+LICENSE-APACHE-2.0.txt were added.
+
+Models:
+  es  vosk-model-small-es-0.42
+  pt  vosk-model-small-pt-0.3
+  zh  vosk-model-small-cn-0.22
+  ja  vosk-model-small-ja-0.22
+  fr  vosk-model-small-fr-0.22
+  de  vosk-model-small-de-0.15
+  ru  vosk-model-small-ru-0.22
+  hi  vosk-model-small-hi-0.22
